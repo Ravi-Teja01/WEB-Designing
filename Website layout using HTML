@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout using HTML5</title>
+    <style>
+
+        main{
+            width:900px;
+            height:1000px;
+            background-color:cornflowerblue;
+            margin:auto;
+
+        }
+        header{
+            width:900px;
+            height:200px;
+            background-color: aqua;
+            margin-top:5px;
+
+        }
+        nav{
+            width:500px;
+            height:50px;
+            background-color:chocolate;
+            float:right;
+            margin-top:100px;
+        }
+        maincontent{
+            width:900px;
+            height:600px;
+            background-color:color(from color srgb r g b);
+        }
+
+        aside{
+            width:300px;
+            height:600px;
+            background-color: rgb(174, 0, 255);
+            float:left;
+        }
+        article{
+            width:600px;
+            height:600px;
+            background-color: rgb(255, 0, 144);
+            float:left;
+        }
+        section{
+            width:500px;
+            height:100px;
+            background-color: rgba(0, 255, 34, 0.585);
+            margin:10px;
+
+        }
+        footer{
+            width:900px;
+            height:200px;
+            background-color:chartreuse;
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+    <main>
+        <header>Header <br/>
+            <img src="D:\practice\Udemy WEB\htmlimg.jpg"  width="300px" height="150px"/>
+            <nav>
+                Navigation<br/>
+                <a href="https:\\www.flipkart.com" >www.flipkart.com</a>
+            </nav>
+
+        </header>
+        <maincontent>
+            <aside>aside
+                <h1>This is a side content of the web layout</h1>
+
+            </aside>
+            <article>
+                Article
+                <section>section1 <br/>
+                <h1>HTML - Hyper Text Markup Language</h1>
+            </section>
+                <section>section2<br/>
+                <h1>CSS-Cascading Style Sheet</h1>
+            </section>
+                 <section>section3<br/>
+                <h1>JS- JavaScript</h1>
+            </section>
+                
+            </article>
+
+        </maincontent>
+
+        <footer>
+            Footer<br/>
+            <img src="D:\practice\Udemy WEB\JSimg.jpg" width="300px" height="150px"/>
+        </footer>
+
+
+    </main>
+    
+</body>
+</html>
